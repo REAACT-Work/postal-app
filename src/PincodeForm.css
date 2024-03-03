@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    margin-bottom: -5px;
+}
+h5{
+    text-align: inline;
+}
+input{
+margin: 20px;
+width: 97%;
+padding: 8px;
+border-radius: 3px;
+border: 2px solid black;
+}
+button{
+    margin: 5px 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 70px;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(192, 190, 190);
+    scale:  1.1;
+    transition: 0.5s;
+}
+p{
+    margin: 20px;
+}
+
+.carda{
+    width: 28rem;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap; /* Added flex-wrap to wrap items into multiple lines */
+    justify-content: space-between; /* Adjusted to evenly distribute items */
+}
+
